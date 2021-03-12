@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6358258024295821173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6358258024295821175}
+  - component: {fileID: 6358258024295821172}
+  m_Layer: 0
+  m_Name: Card Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6358258024295821175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6358258024295821173}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6358258024295821172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6358258024295821173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87113b2d18c9faa46817eefa12208bd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  safeCard: {fileID: 564426258044301308, guid: 4cd56b0b0434b804a999f86c0f18a115, type: 3}
+  bombCard: {fileID: 5215766396774285840, guid: d360105756aab6b4a9b90c1c557d52ba, type: 3}
+  reverseCard: {fileID: 2952244949099399555, guid: 740201dfeb913c64185726bba46321c3, type: 3}
+  attackCard: {fileID: 962732740930403666, guid: 2b25faa48550e8c4e89a5fa93d7a43cc, type: 3}
+  snipeCard: {fileID: 507703410693931824, guid: d0e22e4f04aed56409c2282650779c61, type: 3}
+  parent: {fileID: 0}
+  numSafeCards: 11
+  numBombs: 1
+  rows: 5
+  columns: 3
+  cardNumber: 0
